@@ -72,6 +72,7 @@ font-weight: 700;
     background: url('./images/group14.png');
     background-repeat: no-repeat;
     background-size: 50%;
+    background-position: left, bottom;
 }
 .banner-section{
     max-width: 1400px;
@@ -83,8 +84,8 @@ font-weight: 700;
     gap: 4rem;
 }
 .banner-img img{
-    width: 100%;
-    height: 600px;
+    max-width: 700px;
+    max-height: 585px;
 }
 .banner-content{
     align-items: center;
@@ -141,7 +142,56 @@ border-radius: 48px;
 background: #4EC5F7;
 margin: 2.5rem 1rem 0px 0px;
 }
+.second-banner{
+    width: 100%;
+    min-height: 400px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: 0px;
+}
+.sec-banner-sedction{
+    max-width: 1400px;
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto;
+    align-items: center;
+}
+.sec-banner-content{
+    text-align: right;
+    
+}
+.sec-banner-title{
+    background-image:linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 48px;
+font-weight: 700;
+}
 
+.sec-banner-description{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1rem 0 -1rem 0;
+}
+.sec-banner-description2{
+    color: #534C64;
+font-size: 32px;
+font-weight: 700;
+line-height: 45px;
+margin: 1rem 0;
+}
+.purpose{
+    color: #534C64;
+text-align: right;
+font-size: 24px;
+font-weight: 500;
+}
+.sec-banner-img img{
+max-width: 720px;
+}
+.sec-banner-content .banner-btn1{
+margin-right: 0px;
+}
 
 
 
@@ -211,6 +261,22 @@ border-radius: 24px;
     .banner-btn1{
         margin-left: 7rem;
     }
+    .sec-banner-sedction{
+        flex-direction: column;
+    }
+    .second-banner{
+        width: 100%;
+    }
+    .sec-banner-img img{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .sec-banner-content{
+        text-align: center;
+    }
+    .sec-banner-content .banner-btn1{
+        margin: 2rem 0 0 0;
+        }
 }
 
 
@@ -233,4 +299,12 @@ border-radius: 24px;
                 background-size:cover;
                 padding:  40px;
             }
+            .sec-banner-sedction{
+                flex-direction: column;}
+                .sec-banner-content{
+                    text-align: center;
+                }
+                .sec-banner-content .banner-btn1{
+                    margin: 2rem 0 0 0;
+                    }
 }
