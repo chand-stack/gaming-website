@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lora:wght@400;500&family=Open+Sans:wght@800&family=Poppins:wght@200;300;400;500;600;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Work Sans';
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+nav{
+    min-height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 0px 2%;
+    border-radius: 8px;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.nav-list li{
+    list-style: none;
+}
+.nav-list a{
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 20px;
+    color: #3C354F;
+}
+.nav-list ul{
+display: flex;
+align-items: center;
+}
+.nav-btn{
+    width: 262px;
+height: 56px;
+border: none;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+font-size: 20px;
+color: #3C354F;
+align-items: center;
+}
+.nav-icon{
+color: #F61C0D;
+align-items: center;
+margin: 0px 10px 0px 5px;
+}
+.brand-name{
+    font-size: 45px;
+font-style: normal;
+font-weight: 700;
+}
+.logo-g{
+    color: 
+    #FF42A5;
+}
+
+
+
+
+
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        padding-top: 2rem;
+        box-shadow: none;
+    }
+    .nav-list ul{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .nav-list a{
+        margin-top: 2rem;
+    }
+    .nav-list li{
+        margin-top: 2rem;
+    }
+    .nav-btn{
+        margin-top: 2rem;
+    }
+}
+
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    nav{
+        flex-direction: column;
+        padding-top: 2rem;
+        box-shadow: none;
+    }
+}
