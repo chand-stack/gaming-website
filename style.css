@@ -654,7 +654,7 @@ footer {
     }
 
     .career-parent {
-        width: 109%;
+        width: 100%;
     }
 
     .career-content {
@@ -779,7 +779,7 @@ footer {
     }
 
     .career-parent {
-        width: 110%;
+        width: 100%;
     }
 
     .career-content {
@@ -801,6 +801,6 @@ footer {
 
     footer {
         margin-top: 3.5rem;
-        width: 110%;
+        width: 100%;
     }
 }
