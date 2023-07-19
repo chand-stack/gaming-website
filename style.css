@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lora:wght@400;500&family=Open+Sans:wght@800&family=Poppins:wght@200;300;400;500;600;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
-*{
+
+* {
     font-family: 'Work Sans';
     padding: 0px;
     margin: 0px;
 }
-header{
+
+header {
     width: 100%;
 }
-.head{
+
+.head {
     margin: 0 auto;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
-nav{
+nav {
     max-width: 1400px;
     margin: 0 auto;
     min-height: 130px;
@@ -23,229 +26,264 @@ nav{
     padding: 0px 2%;
     border-radius: 8px;
 }
-.logo-section{
+
+.logo-section {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
-.nav-list li{
+
+.nav-list li {
     list-style: none;
 }
-.nav-list a{
+
+.nav-list a {
     text-decoration: none;
     margin-right: 2rem;
     font-size: 20px;
     color: #3C354F;
 }
-.nav-list ul{
-display: flex;
-align-items: center;
+
+.nav-list ul {
+    display: flex;
+    align-items: center;
 }
-.nav-btn{
+
+.nav-btn {
     width: 262px;
-height: 56px;
-border: none;
-border-radius: 8px;
-background: rgba(11, 2, 35, 0.10);
-font-size: 20px;
-color: #3C354F;
-align-items: center;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    font-size: 20px;
+    color: #3C354F;
+    align-items: center;
 }
-.nav-icon{
-color: #F61C0D;
-align-items: center;
-margin: 0px 10px 0px 5px;
+
+.nav-icon {
+    color: #F61C0D;
+    align-items: center;
+    margin: 0px 10px 0px 5px;
 }
-.brand-name{
+
+.brand-name {
     font-size: 45px;
-font-style: normal;
-font-weight: 700;
+    font-style: normal;
+    font-weight: 700;
 }
-.logo-g{
-    color: 
-    #FF42A5;
+
+.logo-g {
+    color:
+        #FF42A5;
 }
 
 
-.banner-parent{
+.banner-parent {
     width: 100%;
     background: url('./images/group14.png');
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: left, bottom;
 }
-.banner-section{
+
+.banner-section {
     max-width: 1400px;
     min-height: 600px;
     margin: 0 auto;
-    display:flex ;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 4rem;
 }
-.banner-img img{
+
+.banner-img img {
     max-width: 700px;
     max-height: 585px;
 }
-.banner-content{
+
+.banner-content {
     align-items: center;
-   
+
 }
-.banner-title1{
+
+.banner-title1 {
     color: #0B0223;
-text-align: center;
-font-size: 48px;
-font-weight: 600;
-text-transform: uppercase;
-}
-.banner-title2{
     text-align: center;
-font-size: 95px;
-font-weight: 800;
-text-transform: uppercase;
-background-image:linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-color: transparent;
--webkit-background-clip: text;
-margin-bottom: 1.5rem;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
-.banner-description{
+
+.banner-title2 {
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 1.5rem;
+}
+
+.banner-description {
     color: #534C64;
-font-size: 20px;
-font-weight: 500;
-text-transform: lowercase;
-margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-top: 1rem;
 }
-.banner-icon{
+
+.banner-icon {
     color: #FF42A5;
 }
-.banner-btn1{
+
+.banner-btn1 {
     color: #FFF;
-font-size: 20px;
-font-weight: 600;
-text-transform: uppercase;
-padding: 21px 40px;
-gap: 10px;
-border: none;
-border-radius: 48px;
-background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-margin: 2.5rem 1rem 0px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 21px 40px;
+    gap: 10px;
+    border: none;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    margin: 2.5rem 1rem 0px 0px;
 }
-.banner-btn2{
+
+.banner-btn2 {
     color: #FFF;
-font-size: 20px;
-font-weight: 600;
-text-transform: uppercase;
-padding: 21px 40px;
-gap: 10px;;
-border: none;
-border-radius: 48px;
-background: #4EC5F7;
-margin: 2.5rem 1rem 0px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 21px 40px;
+    gap: 10px;
+    ;
+    border: none;
+    border-radius: 48px;
+    background: #4EC5F7;
+    margin: 2.5rem 1rem 0px 0px;
 }
-.second-banner{
+
+.second-banner {
     width: 100%;
     min-height: 400px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     margin-top: 0px;
 }
-.sec-banner-sedction{
+
+.sec-banner-sedction {
     max-width: 1400px;
     display: flex;
     gap: 2rem;
     margin: 0 auto;
     align-items: center;
 }
-.sec-banner-content{
+
+.sec-banner-content {
     text-align: right;
-    
+
 }
-.sec-banner-title{
-    background-image:linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+
+.sec-banner-title {
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     color: transparent;
     -webkit-background-clip: text;
     font-size: 48px;
-font-weight: 700;
+    font-weight: 700;
 }
 
-.sec-banner-description{
+.sec-banner-description {
     color: #534C64;
     font-size: 18px;
     font-weight: 400;
     margin: 1rem 0 -1rem 0;
 }
-.sec-banner-description2{
+
+.sec-banner-description2 {
     color: #534C64;
-font-size: 32px;
-font-weight: 700;
-line-height: 45px;
-margin: 1rem 0;
-}
-.purpose{
-    color: #534C64;
-text-align: right;
-font-size: 24px;
-font-weight: 500;
-}
-.sec-banner-img img{
-max-width: 720px;
-}
-.sec-banner-content .banner-btn1{
-margin-right: 0px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+    margin: 1rem 0;
 }
 
-main{
+.purpose {
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sec-banner-img img {
+    max-width: 720px;
+}
+
+.sec-banner-content .banner-btn1 {
+    margin-right: 0px;
+}
+
+main {
     max-width: 1400px;
     margin: 120px auto;
 }
-.video-section-title h1{
+
+.video-section-title h1 {
     font-size: 48px;
-font-weight: 700;
-text-align: center;
+    font-weight: 700;
+    text-align: center;
 }
-.video-section-title p{
+
+.video-section-title p {
     color: #534C64;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-margin: 2rem auto 3rem auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 2rem auto 3rem auto;
 }
-.video-title{
+
+.video-title {
     color: #534C64;
     font-family: Work Sans;
     font-size: 20px;
     font-weight: 500;
 }
-.video-section{
+
+.video-section {
     display: grid;
-    grid-template-columns:repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 5px;
 }
 
 .container {
     position: relative;
-    width: 100%;}
+    width: 100%;
+}
+
 .image {
-        display: block;
-        width: 100%;
-        height: auto;
-      }   
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: auto;
-        width: auto;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: rgba(0, 0, 0, 0.545);
-        border: 5px solid #F948B2;
-        border-radius: 22px;
-} 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.545);
+    border: 5px solid #F948B2;
+    border-radius: 22px;
+}
+
 .container:hover .overlay {
     opacity: 1;
-  }
+}
+
 .text {
     color: white;
     font-size: 20px;
@@ -257,299 +295,512 @@ margin: 2rem auto 3rem auto;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
-  .online-game-section{
+}
+
+.online-game-section {
     max-width: 1400px;
     margin: 120px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: end;
-    
-  }
-.g-title{
+
+}
+
+.g-title {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.game-title{
+
+.game-title {
     font-size: 48px;
-font-weight: 700;
-margin-bottom: 3rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
 }
-.game-description{
+
+.game-description {
     color: #534C64;
-font-size: 18px;
-font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
 }
+
 .game-contentn {
     margin: 0 0 15rem 10rem;
 }
-.game-img , .game-img-sectio{
+
+.game-img,
+.game-img-sectio {
     display: flex;
     flex-direction: column;
 }
-.game-img3{
+
+.game-img3 {
     width: 300px;
     position: relative;
     bottom: 200px;
     right: 150px;
 }
-.online-game-section2{
+
+.online-game-section2 {
     max-width: 1400px;
     margin: 0px auto;
-    display: flex;   
+    display: flex;
     gap: 100px;
     align-items: center;
 }
-.game-img5{
+
+.game-img5 {
     width: 300px;
     position: relative;
     bottom: 200px;
     left: 550px;
 }
-.career-parent{
+
+.career-parent {
     width: 100%;
     background-color: #FF42A5;
 }
-.career-container{
+
+.career-container {
     display: flex;
     justify-content: space-between;
     max-width: 1400px;
-    margin-left: auto ;
+    margin-left: auto;
     align-items: center;
     justify-items: center;
 }
-.career-img img{
+
+.career-img img {
     width: 100%;
     height: 100%;
 }
-.career-title{
+
+.career-title {
     color: #FFF;
-font-size: 48px;
-font-weight: 700;
+    font-size: 48px;
+    font-weight: 700;
 }
-.career-description{
+
+.career-description {
     color: #FFF;
-font-size: 18px;
-font-weight: 400;
-margin: 2rem 0px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 2rem 0px;
 }
-.career-info{
+
+.career-info {
     display: flex;
     justify-content: space-between;
 }
-.profession , .location{
+
+.profession,
+.location {
     color: #FFF;
-font-size: 18px;
-font-weight: 600;
+    font-size: 18px;
+    font-weight: 600;
 }
-.career-btn{
+
+.career-btn {
     border: none;
     border-radius: 48px;
-background: #FFF;
-font-size: 20px;
-font-weight: 600;
-color: #F948B2;
-padding: 21px 40px;
-gap: 10px;
-margin-top: 1.5rem;
+    background: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F948B2;
+    padding: 21px 40px;
+    gap: 10px;
+    margin-top: 1.5rem;
 }
 
+.game-list-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 243px;
+    height: 80px;
+    border-radius: 50px;
+    background: #f7f6f6;
+}
 
+.game-list-container {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-content: center;
+    justify-content: center;
+}
+
+.game-list-btn:hover {
+    border: 2px solid #F948B2;
+    color: #F948B2;
+}
+
+footer {
+    min-height: 500px;
+    background: #0B0223;
+}
+
+.footer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    align-content: center;
+    justify-content: center;
+    padding-top: 6rem;
+}
+
+.footer-logo h1 {
+    color: #FFF;
+}
+
+.footer-menu {
+    list-style: none;
+    color: #FFF;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 3rem 0;
+}
+
+.footer-icon {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding: 2rem;
+}
+
+.footer-policy {
+    list-style: none;
+    color: #FFF;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 200;
+}
+
+.footer-line {
+    color: #FFF;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 2rem;
+}
 
 
 @media screen and (max-width:576px) {
-    nav{
+    nav {
         flex-direction: column;
         padding-top: 2rem;
         box-shadow: none;
     }
-    .nav-list ul{
+
+    .nav-list ul {
         flex-direction: column;
         margin-top: 2rem;
     }
-    .nav-list a{
+
+    .nav-list a {
         margin-top: 2rem;
     }
-    .nav-list li{
+
+    .nav-list li {
         margin-top: 2rem;
     }
-    .nav-btn{
+
+    .nav-btn {
         margin-top: 2rem;
     }
-    .banner-section{
+
+    .banner-section {
         flex-direction: column-reverse;
     }
-    .banner-img img{
-        width:300px;
+
+    .banner-img img {
+        width: 300px;
         height: 300px;
         margin-top: 4.5rem;
         background: white
     }
-    .banner-parent{
+
+    .banner-parent {
         background: white;
     }
-    .banner-content{
+
+    .banner-content {
         width: 80%;
         align-items: center;
         background: url('./images/group14.png');
         background-repeat: no-repeat;
-        background-size:cover;
-        padding:  40px;
+        background-size: cover;
+        padding: 40px;
     }
-    
-    .banner-description{
+
+    .banner-description {
         width: 200px;
         margin: 1rem auto;
         font-size: 10px;
     }
-    .banner-title1{
+
+    .banner-title1 {
         font-size: 24px;
     }
-    .banner-title2{
+
+    .banner-title2 {
         font-size: 45px;
     }
-    
-    .banner-btn1, .banner-btn2{
+
+    .banner-btn1,
+    .banner-btn2 {
         color: #FFF;
-font-size: 10px;
-font-weight: 600;
-text-transform: uppercase;
-padding: 10px 20px;
-gap: 10px;
-border: none;
-border-radius: 24px;
+        font-size: 10px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        gap: 10px;
+        border: none;
+        border-radius: 24px;
     }
-    .banner-btn1{
+
+    .banner-btn1 {
         margin-left: 7rem;
     }
-    .sec-banner-sedction{
+
+    .sec-banner-sedction {
         flex-direction: column;
     }
-    .second-banner{
+
+    .second-banner {
         width: 100%;
     }
-    .sec-banner-img img{
+
+    .sec-banner-img img {
         width: 500px;
         margin: 0 auto;
     }
-    .sec-banner-content{
+
+    .sec-banner-content {
         text-align: center;
     }
-    .sec-banner-content .banner-btn1{
+
+    .sec-banner-content .banner-btn1 {
         margin: 2rem 0 0 0;
-        }
-        .video-section{
-            grid-template-columns: 1fr;
-            margin: 0px auto;
-            text-align: center;
-        }
-        .online-game-section{
-            flex-direction: column;
-        }
-        .game-img2{
-            width: 300px;
-        }
-        .game-img3{
-width: 150px;
-position: relative;
-    bottom: 100px;
-    right: 75px;
-        }
-        .game-content , .game-content2{
-            text-align: center;
-            margin: 0 auto 3rem auto;
-        }
-        .game-title{
-            text-shadow: 3px 3px  rgba(72, 68, 68, 0.199);
-        }
-        .online-game-section2{
-            flex-direction: column-reverse;
-        }
-        .game-img4{
-            width: 300px;
-        }
-        .game-img5{
-            width: 150px;
-            display: none;
-            margin: 0 auto;
-        }
-        .game-img-section{
-            display: flex;
-            flex-direction: column;
-        }
-        .career-container{
-            flex-direction: column;
-            margin: 0 auto
-        }
-        .career-parent{
-            width: 109%;}
-            .career-content{
-                padding: 1rem;
-            }
-            
+    }
+
+    .video-section {
+        grid-template-columns: 1fr;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .online-game-section {
+        flex-direction: column;
+    }
+
+    .game-img2 {
+        width: 300px;
+    }
+
+    .game-img3 {
+        width: 150px;
+        position: relative;
+        bottom: 100px;
+        right: 75px;
+    }
+
+    .game-content,
+    .game-content2 {
+        text-align: center;
+        margin: 0 auto 3rem auto;
+    }
+
+    .game-title {
+        text-shadow: 3px 3px rgba(72, 68, 68, 0.199);
+    }
+
+    .online-game-section2 {
+        flex-direction: column-reverse;
+    }
+
+    .game-img4 {
+        width: 300px;
+    }
+
+    .game-img5 {
+        width: 150px;
+        display: none;
+        margin: 0 auto;
+    }
+
+    .game-img-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .career-container {
+        flex-direction: column;
+        margin: 0 auto
+    }
+
+    .career-parent {
+        width: 109%;
+    }
+
+    .career-content {
+        padding: 1rem;
+    }
+
+    .game-list-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 1.5rem;
+    }
+
+    .game-list-btn {
+        display: flex;
+        align-items: center;
+        width: 100px;
+        height: 40px;
+        border-radius: 25px;
+        background: #f7f6f6;
+    }
+
+    .game-list-container img {
+        width: 20px;
+    }
+
+    .game-list-btn h3 {
+        font-size: 8px;
+    }
+
+    .footer-menu {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .footer-icon {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-policy {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    footer {
+        width: 110%;
+    }
 }
 
 
 @media screen and (min-width:576px) and (max-width:960px) {
-    nav{
+    nav {
         flex-direction: column;
         padding-top: 2rem;
         box-shadow: none;
     }
-    .banner-section{
-        flex-direction: column-reverse;}
-        .banner-parent{
-            background: white;} 
-            
-            .banner-content{
-                width: 80%;
-                align-items: center;
-                background: url('./images/group14.png');
-                background-repeat: no-repeat;
-                background-size:cover;
-                padding:  40px;
-            }
-            .sec-banner-sedction{
-                flex-direction: column;}
-                .sec-banner-content{
-                    text-align: center;
-                }
-                .sec-banner-content .banner-btn1{
-                    margin: 2rem 0 0 0;
-                    }
-                    .video-section{
-                        grid-template-columns: repeat(2, 1fr);
-                        margin: 0px auto;
-                        text-align: center;
-                    }
-                    .online-game-section{
-                        flex-direction: column;
-                    }
-                    .game-img3{
-                        position: relative;
-                            bottom: 100px;
-                            left: -60px;
-                                }
-                                .game-content{
-                                    text-align: center;
-                                    margin: 0 auto 3rem auto;}
-                                    .online-game-section2{
-                                        flex-direction: column-reverse;
-                                    }
-                                    .game-img4{
-                                        width: 600px;
-                                        margin-left: 10px;}
-                                        .career-container{
-                                            flex-direction: column;
-                                            margin: 0 auto
-                                        }
-                                        .career-parent{
-                                            width: 110%;
-                                        }
-                                            .career-content{
-                                                padding: 1.5rem;
-                                            }
+
+    .banner-section {
+        flex-direction: column-reverse;
+    }
+
+    .banner-parent {
+        background: white;
+    }
+
+    .banner-content {
+        width: 80%;
+        align-items: center;
+        background: url('./images/group14.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 40px;
+    }
+
+    .sec-banner-sedction {
+        flex-direction: column;
+    }
+
+    .sec-banner-content {
+        text-align: center;
+    }
+
+    .sec-banner-content .banner-btn1 {
+        margin: 2rem 0 0 0;
+    }
+
+    .video-section {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .online-game-section {
+        flex-direction: column;
+    }
+
+    .game-img3 {
+        position: relative;
+        bottom: 100px;
+        left: -60px;
+    }
+
+    .game-content {
+        text-align: center;
+        margin: 0 auto 3rem auto;
+    }
+
+    .online-game-section2 {
+        flex-direction: column-reverse;
+    }
+
+    .game-img4 {
+        width: 600px;
+        margin-left: 10px;
+    }
+
+    .career-container {
+        flex-direction: column;
+        margin: 0 auto
+    }
+
+    .career-parent {
+        width: 110%;
+    }
+
+    .career-content {
+        padding: 1.5rem;
+    }
+
+    .game-list-container {
+        margin-top: 5rem;
+    }
+
+    .footer-menu {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .footer-policy {
+        gap: 1rem;
+    }
+
+    footer {
+        margin-top: 3.5rem;
+        width: 110%;
+    }
 }
