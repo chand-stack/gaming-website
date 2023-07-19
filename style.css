@@ -577,6 +577,10 @@ footer {
         margin-left: 7rem;
     }
 
+    .second-banner {
+        background: none;
+    }
+
     .sec-banner-sedction {
         flex-direction: column;
     }
@@ -745,8 +749,10 @@ footer {
 
     .video-section {
         grid-template-columns: repeat(2, 1fr);
-        margin: 0px auto;
+        margin: 0px 30px;
         text-align: center;
+        grid-gap: 30px;
+
     }
 
     .online-game-section {
@@ -769,8 +775,15 @@ footer {
     }
 
     .game-img4 {
-        width: 600px;
-        margin-left: 10px;
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .game-img5 {
+        position: relative;
+        bottom: 100px;
+        left: 60%;
     }
 
     .career-container {
@@ -801,6 +814,6 @@ footer {
 
     footer {
         margin-top: 3.5rem;
-        width: 110%;
+        width: 100%;
     }
 }
